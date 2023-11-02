@@ -86,9 +86,4 @@ const Form = () => {
     )
 }
 
-// "provider": "phincon.com",
-//       "email": "mail@phincon.com",
-//       "password": "Bethebest123",
-//       "category": "work"
-
 export default Form

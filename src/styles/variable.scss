@@ -26,3 +26,9 @@ $headerHeight: 100px;
         }
     }
 }
+
+@mixin responsive {
+    @media only screen and (max-width: 576px)  {
+        @content
+    }
+} 

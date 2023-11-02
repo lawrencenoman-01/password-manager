@@ -9,6 +9,10 @@
     margin: 5px;
     border-radius: 10px;
 
+    @include responsive {
+        min-height: 82vh;
+    }
+
     &__card {
         background-color: $primary;
         display: flex;
@@ -19,8 +23,11 @@
         border-radius: 10px;
         box-shadow: 0 0 8px 0px rgba(0, 0, 0, 1);
 
+        @include responsive {
+            width: 24rem;
+        }
+
         &__content {
-            // background-color: red;
             display: flex;
             flex-direction: column;
             align-items: center;

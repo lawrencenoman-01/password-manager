@@ -10,6 +10,10 @@
     padding: 20px;
     border-radius: 10px;
 
+    @include responsive{
+        max-width: 370px;
+    }
+
     &__error {
         color: red;
         font-size: 10px;
@@ -35,5 +39,11 @@
         padding: 8px;
         background-color: $light-dark;
         border: 1px solid #ddd;
+
+        option {
+            @include responsive{
+                font-size: 10px;
+            }
+        }
     }
 }
