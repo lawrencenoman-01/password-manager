@@ -1,0 +1,47 @@
+@import '../../styles/variable.scss';
+
+.container {
+    min-height: 100vh;
+    padding: 20px;
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__card {
+        display: flex;
+        gap: 1.9rem;
+        flex-wrap: wrap;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 220px;
+            border-radius: 20px;
+            overflow: hidden;
+            // padding-bottom: 24px;
+            box-shadow: 0 0 8px 0px rgba(0, 0, 0, .5);
+            background-color: $primary;
+            padding: 10px;
+
+            .content__image {
+                border-radius: 50px;
+                width: 40%;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            .content__button {
+                display: flex;
+                padding: 20px;
+                gap: 10px;
+            }
+        }
+    }
+}

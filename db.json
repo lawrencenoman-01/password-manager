@@ -1,0 +1,39 @@
+{
+  "password": [
+    {
+      "provider": "olen",
+      "email": "olen@gmail.com",
+      "password": "123456",
+      "category": "family",
+      "id": 7
+    },
+    {
+      "provider": "david",
+      "email": "david@gmail.com",
+      "password": "david123",
+      "category": "personal",
+      "id": 8
+    },
+    {
+      "provider": "lukas",
+      "email": "lukas@gmail.com",
+      "password": "lukas123",
+      "category": "work",
+      "id": 9
+    },
+    {
+      "provider": "dimas",
+      "email": "dimas@gmail.com",
+      "password": "dimas123",
+      "category": "family",
+      "id": 10
+    },
+    {
+      "provider": "Dhani",
+      "email": "dhani@gmail.com",
+      "password": "Dhani123",
+      "category": "family",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+@import '../../styles/variable.scss';
+
+.container__form {
+    display: block;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 2px #ddd;
+    margin: 40px auto;
+    max-width: 600px;
+    max-height: 700px;
+    padding: 20px;
+    border-radius: 10px;
+
+    &__error {
+        color: red;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 8px;
+        margin: 10px auto;
+        background-color: $light-dark;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    &__select {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 15px auto;
+        padding: 8px;
+        background-color: $light-dark;
+        border: 1px solid #ddd;
+    }
+}
